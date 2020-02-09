@@ -4,8 +4,6 @@ git init
 git add git.txt
 git commit -m hi
 
-git remote add origin https://github.com/oksanamorozova/gitAndroid.git
-
 git push -u origin master
 
 git checkout -b develop
@@ -28,7 +26,6 @@ git add git.txt
 git commit -m second
 git push origim develop2
 
-git clone https://github.com/oksanamorozova/gitAndroid
 cd gitAndroid
 
 git checkout -b develop2_copy
